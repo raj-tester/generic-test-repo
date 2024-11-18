@@ -3,7 +3,7 @@ name: Automated API tests using Postman CLI
 on: pull_request
 
 jobs:
-  automated-api-tests:
+  automated-api-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
