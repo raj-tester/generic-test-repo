@@ -12,15 +12,19 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "fc59539a-d0e7-4942-92c3-49f9c34806e2",
 						"exec": [
 							"const res = pm.response.json();",
 							"",
 							"console.log(res.id)",
 							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
 							"pm.collectionVariables.set(\"newPetId\", res.id);"
 						],
-						"type": "text/javascript",
-						"id": "fc59539a-d0e7-4942-92c3-49f9c34806e2"
+						"type": "text/javascript"
 					}
 				}
 			],
@@ -117,13 +121,13 @@
 	],
 	"variable": [
 		{
-			"id": "c931900d-7d73-49a9-bdf0-f9bef2c0208f",
+			"id": "5bdf9db8-3412-4268-a348-fd04b81b95d2",
 			"key": "baseURL",
 			"value": "https://petstore.swagger.io/v2",
 			"type": "string"
 		},
 		{
-			"id": "6288c293-c239-4768-a70c-1f0846291cf6",
+			"id": "d82bbe4f-026d-4567-9671-df0c2cdc1c65",
 			"key": "newPetId",
 			"value": ""
 		}
