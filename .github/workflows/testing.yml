@@ -26,16 +26,16 @@ jobs:
            postman collection run "${{ github.workspace }}/postman/collections/myTest api.json"
       - name: install npm
         run: |
-          npm install
+           npm install
       - name: install mocha
         run: |
          npm i mocha
       - name: install chai
         run: |
-          npm i --save-dev chai
+         npm i --save-dev chai
       - name: install chai-http
         run: |
-          npm i --save-dev chai-http
+         npm i --save-dev chai-http
       - name: install chai-json-schema
         run: |
           npm i --save-dev chai-json-schema
