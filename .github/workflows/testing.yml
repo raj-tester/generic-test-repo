@@ -24,7 +24,7 @@ jobs:
       - name: Run API tests
         run: |
            postman collection run "${{ github.workspace }}/postman/collections/myTest api.json"
-            - name: install npm
+      - name: install npm
         run: |
           npm install
       - name: install mocha
