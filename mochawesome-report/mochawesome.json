@@ -56,30 +56,19 @@
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "d79a8ebe-dd2d-4ac8-99ee-6947dbd77583"
-=======
+
             "f96922bf-f94d-4d14-823c-11e14bb7a523"
->>>>>>> d9c6c985206ea501834c19db251e21f98204d9f3
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 295,
-=======
           "duration": 317,
->>>>>>> d9c6c985206ea501834c19db251e21f98204d9f3
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-<<<<<<< HEAD
-          "uuid": "3e3ea090-3226-4c58-a058-79d61048f4b6",
-=======
           "uuid": "d68fd64b-ef98-4879-9f1d-2321704e4bc2",
->>>>>>> d9c6c985206ea501834c19db251e21f98204d9f3
           "title": "API test for pet management ",
           "fullFile": "/Users/rajnishparmar/Documents/myTest/my_test/github_req2/test.js",
           "file": "/github_req2/test.js",
@@ -90,11 +79,7 @@
               "title": "GET Repo",
               "fullTitle": "API test for pet management  GET Repo",
               "timedOut": false,
-<<<<<<< HEAD
-              "duration": 254,
-=======
               "duration": 256,
->>>>>>> d9c6c985206ea501834c19db251e21f98204d9f3
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -103,33 +88,20 @@
               "context": null,
               "code": "chai.request(\"https://api.github.com/\")\n.post(\"user/repos\")\n.set(\"Authorization\", \"Bearer \" + \"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\")\n.send({\n  \"name\": \"code repo5\",\n  \"description\": \"test 5\"\n})\n.end(function(err, res){\n  console.log(res.statusCode)\n  if(err){\n   done(err);\n   }\n      done();\n  })",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "d1a1553e-b30c-4daa-8319-f4ea1c64cfa5",
-              "parentUUID": "3e3ea090-3226-4c58-a058-79d61048f4b6",
-=======
               "uuid": "d6ccbc65-c7a0-4b88-8779-98c85aca7bd0",
               "parentUUID": "d68fd64b-ef98-4879-9f1d-2321704e4bc2",
->>>>>>> d9c6c985206ea501834c19db251e21f98204d9f3
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "d1a1553e-b30c-4daa-8319-f4ea1c64cfa5"
-=======
             "d6ccbc65-c7a0-4b88-8779-98c85aca7bd0"
->>>>>>> d9c6c985206ea501834c19db251e21f98204d9f3
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 254,
-=======
           "duration": 256,
->>>>>>> d9c6c985206ea501834c19db251e21f98204d9f3
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
