@@ -1,1 +1,1 @@
-# blue_test
+# generic-test-repo
